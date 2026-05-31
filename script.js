@@ -1,8 +1,8 @@
 const photos = [
-  "assets/images/photo1.jpg","assets/images/photo2.jpg","assets/images/photo3.jpg",
-  "assets/images/photo4.jpg","assets/images/photo5.jpg","assets/images/photo6.jpg",
-  "assets/images/photo7.jpg","assets/images/photo8.jpg","assets/images/photo9.jpg",
-  "assets/images/photo10.jpg","assets/images/photo11.jpg","assets/images/photo12.jpg"
+  "photo1.jpg","photo2.jpg","photo3.jpg",
+  "photo4.jpg","photo5.jpg","photo6.jpg",
+  "photo7.jpg","photo8.jpg","photo9.jpg",
+  "photo10.jpg","photo11.jpg","photo12.jpg"
 ];
 
 const screens = {
