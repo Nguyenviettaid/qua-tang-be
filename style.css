@@ -14,7 +14,7 @@ button{border:0;border-radius:999px;padding:16px 42px;font-size:24px;font-weight
 .halo{position:absolute;width:92%;height:92%;border-radius:50%;background:radial-gradient(circle,rgba(255,226,160,.42),rgba(255,255,255,.07) 45%,transparent 72%);filter:blur(8px);animation:pulse 3s ease-in-out infinite}
 @keyframes pulse{50%{transform:scale(1.08);opacity:.75}}
 .globe{position:relative;width:min(74vw,430px);height:min(74vw,430px);border-radius:50%;overflow:hidden;background:#111;box-shadow:inset -35px -25px 60px rgba(0,0,0,.65),inset 20px 18px 35px rgba(255,255,255,.16),0 0 38px rgba(255,220,150,.75),0 0 90px rgba(255,120,190,.18);border:4px solid rgba(255,230,170,.88);animation:floatBall 4s ease-in-out infinite}
-.map{position:absolute;inset:0;border-radius:50%;background-image:url('assets/images/globe_texture.jpg');background-size:200% 100%;animation:earthSpin 16s linear infinite;filter:saturate(1.12) contrast(1.08)}
+.map{position:absolute;inset:0;border-radius:50%;background-image:url('globe_texture.jpg');background-size:200% 100%;animation:earthSpin 16s linear infinite;filter:saturate(1.12) contrast(1.08)}
 .shine{position:absolute;inset:0;border-radius:50%;background:radial-gradient(circle at 28% 18%,rgba(255,255,255,.9),rgba(255,255,255,.35) 17%,transparent 35%),radial-gradient(circle at 70% 75%,rgba(0,0,0,.08),rgba(0,0,0,.5) 82%);pointer-events:none}
 @keyframes earthSpin{from{background-position:0% 50%}to{background-position:200% 50%}}
 @keyframes floatBall{50%{transform:translateY(-12px) scale(1.015)}}
