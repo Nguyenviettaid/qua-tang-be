@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quà Tặng của bé iu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stars"></canvas>
+
+  <main>
+    <section id="start" class="screen active">
+      <h1>💖 Gửi Tặng bé iu 💖</h1>
+      <p>Chạm để mở quả cầu ký ức</p>
+      <button id="openBtn">🎁 Mở quà</button>
+    </section>
+
+    <section id="globeScreen" class="screen">
+      <div class="topText">Chạm vào quả cầu để chuyển tiếp</div>
+      <div class="globeWrap">
+        <div class="halo"></div>
+        <div class="globe">
+          <div class="map"></div>
+          <div class="shine"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="wallScreen" class="screen">
+      <div class="wall" id="wall"></div>
+    </section>
+
+    <section id="letterScreen" class="screen">
+      <div class="mail" id="mail">
+        <div class="letter">
+          <h2>💌 Gửi bé iu của anh </h2>
+          <p>Chúc bé iu ngày 1/6 thật vui vẻ, luôn cười thật tươi và luôn được yêu thương thật nhiều.</p>
+          <p>Cảm ơn bé iu vì đã xuất hiện, vì những khoảnh khắc dễ thương và những kỷ niệm thật đẹp cùng nhau.</p>
+          <p>Mong bé iu luôn bình an, hạnh phúc và ngày nào cũng có thật nhiều niềm vui.</p>
+          <p>niềm vui.<p>
+          <h3>🎈 Happy Children's Day 1/6 🎈</h3>
+        </div>
+      </div>
+     <p class="note">Chạm vào lá thư để mở</p>
+    </section>
+  </main>
+
+  <audio id="music" loop>
+    <source src="assets/music/so1thegioi.mp3" type="audio/mpeg">
+    <source src="assets/music/thieunhi.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
